@@ -77,7 +77,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CamController.cs" />
     <Compile Include="Assets\Scripts\Portal.cs" />
-    <Compile Include="Assets\TeleportScript.cs" />
+    <Compile Include="Assets\Scripts\TeleportOnCollision.cs" />
+    <Compile Include="Assets\Scripts\TeleportScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\PortalShader.shader" />

@@ -27,6 +27,18 @@ public class CamController : MonoBehaviour {
 		}
 	
 		// Basic Movement
+		if (Input.GetKey (KeyCode.LeftArrow)) {
+
+            Quaternion xRot = Quaternion.AngleAxis(-LookSpeed * Time.deltaTime, Vector3.up);
+            transform.localRotation =  xRot * transform.localRotation;
+        }
+		// Basic Movement
+		if (Input.GetKey (KeyCode.RightArrow)) {
+
+            Quaternion xRot = Quaternion.AngleAxis(LookSpeed * Time.deltaTime, Vector3.up);
+            transform.localRotation =  xRot * transform.localRotation;
+        }
+		// Basic Movement
 		if (Input.GetKey (KeyCode.W)) {
 			transform.position += (transform.forward * MoveSpeed * Time.deltaTime);
 		}
