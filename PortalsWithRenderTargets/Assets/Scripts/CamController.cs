@@ -8,7 +8,7 @@ public class CamController : MonoBehaviour {
 	public float LookSpeed = 1.0f;
 	public float MoveSpeed = 1.0f;
 	
-	private void Update () {
+	/*private void Update () {
 		// Switch cameras (to view the scene from the Portal cameras perspective)
 		if (Input.GetKeyDown (KeyCode.C)) {
 			MainCamera.enabled = !MainCamera.enabled;
@@ -62,5 +62,5 @@ public class CamController : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Q)) {
 			transform.position -= (Vector3.up * MoveSpeed * Time.deltaTime);
 		}
-	}
+	}*/
 }

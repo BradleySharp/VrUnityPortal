@@ -1,5 +1,9 @@
 # gitignore file
 /PortalsWithRenderTargets/Temp
 /PortalsWithRenderTargets/Library
+/PortalsWithRenderTargets/Assets/Google-Unity
+/PortalsWithRenderTargets/Assets/TangoSDK
+/PortalsWithRenderTargets/Assets/Plugins
 
 *.userprefs
+PortalsWithRenderTargets/PortalVr.apk
